@@ -4,10 +4,10 @@
   "additionalProperties" : false,
   "properties": {
     "messageProperties": {
-      "$ref": "messageproperties.jsd"
+      "$ref": "MessageProperties.jsd"
     },
     "convergedSystem": {
-      "type": "convergedsystem.jsd"
+      "type": "ConvergedSystem.jsd"
     }
   },
   "required": [

@@ -4,7 +4,7 @@
   "additionalProperties" : false,
   "properties": {
     "headers": {
-      "$ref": "headers.jsd"
+      "$ref": "Headers.jsd"
     },
     "contentType": {
       "type": "string"

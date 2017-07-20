@@ -4,20 +4,20 @@
   "additionalProperties" : false,
   "properties": {
     "identity": {
-      "$ref": "identity.jsd"
+      "$ref": "Identity.jsd"
     },
     "definition": {
-      "$ref": "definition.jsd"
+      "$ref": "Definition.jsd"
     },
     "groups": {
         "items":{
-          "$ref": "groups.jsd"
+          "$ref": "Groups.jsd"
         },
         "type":"array"
     },
     "endpoints": {
         "items":{
-          "$ref": "endpoints.jsd"
+          "$ref": "Endpoints.jsd"
         },
         "type":"array"
     },
@@ -29,7 +29,7 @@
     },
     "components": {
         "items":{
-          "$ref": "components.jsd"
+          "$ref": "Components.jsd"
         },
         "type":"array"
     }

@@ -13,7 +13,7 @@
     },
     "credentials": {
       "items":{
-          "$ref": "credentials.jsd"
+          "$ref": "Credentials.jsd"
       },
       "type":"array"
     }

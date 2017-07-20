@@ -4,10 +4,10 @@
   "additionalProperties" : false,
   "properties": {
     "identity": {
-      "$ref": "identity.jsd"
+      "$ref": "Identity.jsd"
     },
     "definition": {
-      "$ref": "definition.jsd"
+      "$ref": "Definition.jsd"
     },
     "groups": {
         "items":{

@@ -4,13 +4,13 @@
   "additionalProperties" : false,
   "properties": {
     "configuration": {
-      "$ref": "configuration.jsd"
+      "$ref": "Configuration.jsd"
     },
     "properties": {
-      "$ref": "properties.jsd"
+      "$ref": "Properties.jsd"
     },
     "body": {
-      "$ref": "body.jsd"
+      "$ref": "Body.jsd"
     }
   },
   "required": [
