@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties" : false,
+  "properties": {
+    "messageProperties": {
+      "$ref": "messageproperties.jsd"
+    },
+    "convergedSystem": {
+      "type": "convergedsystem.jsd"
+    }
+  },
+  "required": [
+    "headers",
+    "contentType"
+  ]
+}

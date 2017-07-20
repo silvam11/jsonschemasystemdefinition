@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties" : false,
+  "properties": {
+    "identity": {
+      "$ref": "identity.jsd"
+    },
+    "definition": {
+      "$ref": "definition.jsd"
+    },
+    "groups": {
+        "items":{
+          "type":"string"
+        },
+        "type":"array"
+    },
+    "endpoints": {
+        "items":{
+          "type":"string"
+        },
+        "type":"array"
+    }
+  },
+  "required": [
+    "identity",
+    "definition"
+  ]
+}

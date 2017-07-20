@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties" : false,
+  "properties": {
+    "productFamily": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "modelFamily": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    }
+  },
+  "type": "object",
+  "required": [
+    "productFamily",
+    "product",
+    "modelFamily",
+    "model"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties" : false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "parentSystemIdentifiers": {
+        "items":{
+          "type":"string"
+        },
+        "type":"array"
+    },
+    "parentGroupNames": {
+        "items":{
+          "type":"string"
+        },
+        "type":"array"
+    },
+    "parentSubSystemIdentifiers": {
+        "items":{
+          "type":"string"
+        },
+        "type":"array"
+    }
+  },
+  "type": "object",
+  "required": [
+    "name",
+    "type",
+    "parentSystemIdentifiers",
+    "parentGroupNames",
+    "parentSubSystemIdentifiers"
+  ]
+}

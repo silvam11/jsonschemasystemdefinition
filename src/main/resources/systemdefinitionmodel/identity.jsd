@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties" : false,
+  "properties": {
+    "elementType": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "businessKeys": {
+      "items":{
+          "type":"string"
+        },
+      "type":"array"
+    }
+  },
+  "type": "object",
+  "required": [
+    "host",
+    "exchange",
+    "routingKey"
+  ]
+}

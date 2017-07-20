@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties" : false,
+  "properties": {
+    "identifier": {
+      "type": "string"
+    },
+    "protocol": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "credentials": {
+      "items":{
+          "$ref": "credentials.jsd"
+      },
+      "type":"array"
+    }
+  },
+  "type": "object",
+  "required": [
+    "identifier",
+    "protocol",
+    "address",
+    "credentials"
+  ]
+}

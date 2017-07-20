@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties" : false,
+  "properties": {
+    "identity": {
+      "$ref": "identity.jsd"
+    },
+    "definition": {
+      "$ref": "definition.jsd"
+    },
+    "groups": {
+        "items":{
+          "$ref": "groups.jsd"
+        },
+        "type":"array"
+    },
+    "endpoints": {
+        "items":{
+          "$ref": "endpoints.jsd"
+        },
+        "type":"array"
+    },
+    "subSystems": {
+        "items":{
+          "type":"string"
+        },
+        "type":"array"
+    },
+    "components": {
+        "items":{
+          "$ref": "components.jsd"
+        },
+        "type":"array"
+    }
+  },
+  "required": [
+    "identity",
+    "definition"
+  ]
+}

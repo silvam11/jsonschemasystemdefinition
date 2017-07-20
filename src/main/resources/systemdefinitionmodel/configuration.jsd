@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties" : false,
+  "properties": {
+    "host": {
+      "type": "string"
+    },
+    "exchange": {
+      "type": "string"
+    },
+    "routingKey": {
+      "type": "string"
+    }
+  },
+  "type": "object",
+  "required": [
+    "host",
+    "exchange",
+    "routingKey"
+  ]
+}

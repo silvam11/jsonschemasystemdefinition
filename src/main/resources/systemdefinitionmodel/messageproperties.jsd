@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties" : false,
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "javaType": "java.util.Date"
+    },
+    "correlationId": {
+      "type": "string"
+    },
+    "replyTo": {
+      "type": "string"
+    }
+  },
+  "type": "object",
+  "required": [
+    "timestamp",
+    "correlationId",
+    "replyTo"
+  ]
+}
